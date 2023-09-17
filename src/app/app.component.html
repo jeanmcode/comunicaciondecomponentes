@@ -1,0 +1,16 @@
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+
+
+      <h1>{{titulo}}</h1>
+
+      <app-formulario (total)="RecibirForm($event)"></app-formulario>
+                    <!--recibir resultado es una variable del componente hijo resultado-->
+     <app-resultado [recibirResultado]="recibirTotal"></app-resultado>
+
+</div>
+</div>
+</div>
